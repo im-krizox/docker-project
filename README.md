@@ -1,11 +1,14 @@
 # docker-project
-Este repositorio contiene una imagen Docker basada en Ubuntu 24.04 LTS con Python actualizado y OpenMPI instalado, utilizada para el proyecto de la asignatura Programación Paralela y Concurrente.
+
+[![Docker Image](https://img.shields.io/docker/pulls/kristofferdock/docker-project)](https://hub.docker.com/r/kristofferdock/docker-project)
+
+Este repositorio contiene una imagen Docker basada en **Ubuntu 24.04 LTS** con **Python actualizado** y **OpenMPI** instalado. La imagen será utilizada como entorno de desarrollo del proyecto de la asignatura Programación Paralela y Concurrente.
 
 ## Características
-- Ubuntu 24.04 LTS
-- Python 3.x
-- OpenMPI
-- OpenSSH
+- **Ubuntu 24.04 LTS**: Base del sistema operativo.
+- **Python 3.x**: Instalado y configurado como versión predeterminada.
+- **OpenMPI**: Herramientas para programación paralela.
+- **OpenSSH**: Servidor SSH para conexiones remotas.
 
 ## Cómo usar esta imagen
 1. Clona este repositorio:
